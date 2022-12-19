@@ -5,7 +5,7 @@ const FavoriteSchema = new Schema({
     {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Product",
-      requred: false,
+      requred: true,
     },
   ],
 });
